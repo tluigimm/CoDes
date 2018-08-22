@@ -1,0 +1,45 @@
+.header {
+	border-style: solid;
+	border-width: 1px;
+	background-color: rgb(225,60,60);
+
+}
+
+.main {
+	margin-top: 10px;
+
+
+}
+
+.nav-item {
+	display: inline;
+	margin: 10px;
+
+}
+
+.bordinha {
+	border-style:solid;
+	border-width: 2px;
+	margin-left: 10px;
+	margin-right: 675px;
+}
+
+h1 {
+	font-size: 40px;
+
+}
+
+
+h2 {
+	margin-top: 100px;
+
+}
+
+p {
+	margin-top: 10px;
+	margin-right: 675px;
+}
+
+.HELLO {
+	margin-top: 20px;
+}
