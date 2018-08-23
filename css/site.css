@@ -1,10 +1,5 @@
 /* tag */
-input{
-  font-size: 5px;
-  display: inline;
-  border-style: solid;
-  background-color: rgb(255,255,255);
-}
+
 h1{
   font-size: 40px;
 }
@@ -31,6 +26,21 @@ a{
   background-color:rgb(225, 60, 60)
 }
 
+.main {
+	margin-top: 10px;
+}
+
+.li{
+  font-size: 17px;
+}
+
+.bordinha {
+	border-style:solid;
+	border-width: 2px;
+	margin-left: 10px;
+	margin-right: 675px;
+}
+
 .corpo{
   background-color: rgb(240,240,240)
 }
@@ -40,3 +50,5 @@ a{
   position: relative;
   left: 150px;
 }
+
+/* id */
