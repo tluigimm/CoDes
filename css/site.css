@@ -1,21 +1,25 @@
 /* tag */
 
 h1{
-  font-size: 40px;
+  font-size: 1.5rem;
 }
+
 h2{
-  font-size: 30px;
-  margin: 15px;
+  font-size: 1.5rem;
+  margin: 1rem;
 }
+
 h3{
-  font-size: 20px;
-  margin: 15px;
+  font-size: 1.5rem;
+  margin: 1rem;
 }
+
 p, div{
   position: static;
-  font-size: 17px;
-  margin: 15px;
+  font-size: 1.5rem;
+  margin: 1rem;
 }
+
 a{
   text-decoration: none;
 }
@@ -27,18 +31,22 @@ a{
 }
 
 .main {
-	margin-top: 10px;
+	margin-top: 1rem;
+
 }
 
 .li{
-  font-size: 17px;
+  font-size: 1rem;
+  display: inline;
+  margin: 1.5rem;
+
 }
 
 .bordinha {
 	border-style:solid;
-	border-width: 2px;
-	margin-left: 10px;
-	margin-right: 675px;
+	border-width: 3px;
+	margin-left: 1rem;
+	margin-right: 35rem;
 }
 
 .corpo{
@@ -48,7 +56,7 @@ a{
 .imagem{
   display: inline;
   position: relative;
-  left: 150px;
+  left: 1rem;
 }
 
 /* id */
