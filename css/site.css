@@ -55,13 +55,15 @@ a{
   display: inline;
   margin: 1.5rem;
   align-content: flex-start;
+
 }
 
 .bordinha {
 	border-style:solid;
-	border-width: 1rem;
+  border-width:  0.25rem;
 	margin-left: 1rem;
 	margin-right: 35rem;
+  margin-top: 1.5rem;
   align-content: flex-start;
 }
 
@@ -81,4 +83,22 @@ a{
   align-content: flex-start;
 }
 
+.LETREIRO {
+  font-size: 3rem;
+
+
+}
+
+.Principal {
+  border-style: solid;
+  border-width: 0.0001rem;
+  margin-top: 6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: lightgrey;
+
+
+
+
+}
 /* id */
