@@ -6,6 +6,7 @@ h1{
   align-content: flex-start;
   margin-left: 1rem;
   margin-top: 0.1rem;
+  display:inline;
 }
 
 h2{
@@ -67,10 +68,6 @@ input{
 
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 989008c4fd163f9edbd789a2045d5cfd4849e4c8
 /* classes */
 .header {
   position: relative;
@@ -105,7 +102,7 @@ input{
   display: grid;
   grid-template-rows: 3.5rem 10rem 15rem;
 }
-<<<<<<< HEAD
+
 
 .LETREIRO {
   font-size: 3rem;
@@ -119,8 +116,6 @@ input{
   margin-right: 1rem;
   background-color: lightgrey;
 }
-=======
->>>>>>> 989008c4fd163f9edbd789a2045d5cfd4849e4c8
 
 .imagem{
   display: inline;
@@ -131,29 +126,7 @@ input{
   align-content: flex-start;
 }
 
-.botao{
-  display: inline-grid;
-  position: relative;
-  margin-right: 1rem;
-  left: 81rem;
-  top: -3.3rem;
-}
 
-.buscador{
-  display: inline;
-  position: absolute;
-  background-color: rgb(245, 245, 245);
-  right: 1rem;
-  margin-top: -6.05rem;
-  flex-grow: 1;
-  flex-shrink: 1;
-  align-content: flex-start;
-}
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 989008c4fd163f9edbd789a2045d5cfd4849e4c8
 /* id */
 #home{
   display: inline;
@@ -175,8 +148,6 @@ input{
   border-style: solid;
   margin-top: 1rem;
 }
-<<<<<<< HEAD
-=======
 
 .LETREIRO {
   font-size: 3rem;
@@ -193,7 +164,32 @@ input{
   background-color: lightgrey;
 
 
+}
+
+.teste {
+  font-size: 2rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+  align-content: flex-start;
+  margin-left: 25rem;
+  margin-top: 0.1rem;
+  display:inline;
+  align-content: space-between;
 
 
 }
->>>>>>> 989008c4fd163f9edbd789a2045d5cfd4849e4c8
+
+#home {
+  margin: 1rem;
+
+}
+
+#sobre {
+  margin: 1rem;
+
+}
+
+#contatos {
+  margin: 1rem;
+
+}
