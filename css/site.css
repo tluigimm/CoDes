@@ -93,6 +93,19 @@ input{
   grid-template-rows: 3.5rem 10rem 15rem;
 }
 
+.LETREIRO {
+  font-size: 3rem;
+}
+
+.Principal {
+  border-style: solid;
+  border-width: 0.0001rem;
+  margin-top: 6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: lightgrey;
+}
+
 .imagem{
   display: inline;
   position: relative;
@@ -141,23 +154,4 @@ input{
   position: relative;
   border-style: solid;
   margin-top: 1rem;
-}
-
-.LETREIRO {
-  font-size: 3rem;
-
-
-}
-
-.Principal {
-  border-style: solid;
-  border-width: 0.0001rem;
-  margin-top: 6rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  background-color: lightgrey;
-
-
-
-
 }
