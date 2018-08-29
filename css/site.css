@@ -101,10 +101,7 @@ input{
   display: grid;
   grid-template-rows: 3.5rem 10rem 15rem;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 1ab76a0bd2727088da1ad134fff45f2da7029b24
 
 .LETREIRO {
   font-size: 3rem;
@@ -129,8 +126,6 @@ input{
 }
 
 
-<<<<<<< HEAD
-=======
 .buscador{
   display: inline;
   position: absolute;
@@ -155,7 +150,6 @@ input{
   background-color: lightgrey;
 }
 
->>>>>>> 1ab76a0bd2727088da1ad134fff45f2da7029b24
 /* id */
 #home{
   display: inline;
@@ -201,7 +195,7 @@ input{
   flex-grow: 1;
   flex-shrink: 1;
   align-content: flex-start;
-  margin-left: 25rem;
+  margin-left: 20rem;
   margin-top: 0.1rem;
   display:inline;
   align-content: space-between;
@@ -223,5 +217,4 @@ input{
   margin: 1rem;
 
 }
-=======
->>>>>>> 1ab76a0bd2727088da1ad134fff45f2da7029b24
+
