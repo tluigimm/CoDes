@@ -1,4 +1,8 @@
 /* tag */
+h2, h3{
+  font-family: 'Work Sans', sans-serif;
+}
+
 h1{
   font-size: 3.2rem;
   flex-grow: 1;
@@ -28,6 +32,7 @@ h3{
 }
 
 p{
+  font-family: 'Roboto', sans-serif;
   position: static;
   font-size: 1.5rem;
   margin: 1rem;
@@ -43,14 +48,7 @@ div{
   flex-grow: 1;
   flex-shrink: 1;
   align-content: flex-start;
-}
-
-div{
-  font-size: 1.5rem;
-  margin: 1rem;
-  flex-grow: 1;
-  flex-shrink: 1;
-  align-content: flex-start;
+  font-family: 'Work Sans', sans-serif;
 }
 
 a{
@@ -65,6 +63,7 @@ input{
   flex-shrink: 1;
   align-content: flex-start;
   font-size: 1.5rem;
+  font-family: 'Work Sans', sans-serif;
 
 }
 
@@ -102,7 +101,10 @@ input{
   display: grid;
   grid-template-rows: 3.5rem 10rem 15rem;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1ab76a0bd2727088da1ad134fff45f2da7029b24
 
 .LETREIRO {
   font-size: 3rem;
@@ -127,6 +129,33 @@ input{
 }
 
 
+<<<<<<< HEAD
+=======
+.buscador{
+  display: inline;
+  position: absolute;
+  background-color: rgb(245, 245, 245);
+  right: 1rem;
+  margin-top: -6.05rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+  align-content: flex-start;
+}
+
+.LETREIRO {
+  font-size: 3rem;
+}
+
+.Principal {
+  border-style: solid;
+  border-width: 0.0001rem;
+  margin-top: 6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: lightgrey;
+}
+
+>>>>>>> 1ab76a0bd2727088da1ad134fff45f2da7029b24
 /* id */
 #home{
   display: inline;
@@ -148,6 +177,7 @@ input{
   border-style: solid;
   margin-top: 1rem;
 }
+<<<<<<< HEAD
 
 .LETREIRO {
   font-size: 3rem;
@@ -193,3 +223,5 @@ input{
   margin: 1rem;
 
 }
+=======
+>>>>>>> 1ab76a0bd2727088da1ad134fff45f2da7029b24
