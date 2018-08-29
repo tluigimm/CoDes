@@ -33,6 +33,7 @@ p{
   flex-grow: 1;
   flex-shrink: 1;
   align-content: flex-start;
+  line-height: 1.2;
 }
 
 div{
@@ -57,6 +58,7 @@ input{
   font-size: 1.5rem;
 
 }
+
 
 /* classes */
 .header {
@@ -133,6 +135,7 @@ input{
   flex-shrink: 1;
   align-content: flex-start;
 }
+
 
 /* id */
 #home{
