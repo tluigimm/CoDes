@@ -4,6 +4,8 @@ h1{
   flex-grow: 1;
   flex-shrink: 1;
   align-content: flex-start;
+  margin-left: 1rem;
+  margin-top: 0.1rem;
 }
 
 h2{
@@ -12,6 +14,7 @@ h2{
   flex-grow: 1;
   flex-shrink: 1;
   align-content: flex-start;
+  font-weight: bold;
 }
 
 h3{
@@ -20,10 +23,19 @@ h3{
   flex-grow: 1;
   flex-shrink: 1;
   align-content: flex-start;
+  font-weight: bold;
 }
 
-p, div{
+p{
   position: static;
+  font-size: 1.5rem;
+  margin: 1rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+  align-content: flex-start;
+}
+
+div{
   font-size: 1.5rem;
   margin: 1rem;
   flex-grow: 1;
@@ -36,6 +48,14 @@ a{
   flex-grow: 1;
   flex-shrink: 1;
   align-content: flex-start;
+}
+
+input{
+  flex-grow: 1;
+  flex-shrink: 1;
+  align-content: flex-start;
+  font-size: 1.5rem;
+
 }
 
 /* classes */
@@ -55,14 +75,13 @@ a{
   display: inline;
   margin: 1.5rem;
   align-content: flex-start;
-
 }
 
 .bordinha {
-	border-style:solid;
+  border-style:solid;
   border-width:  0.25rem;
-	margin-left: 1rem;
-	margin-right: 35rem;
+  margin-left: 1rem;
+  margin-right: 35rem;
   margin-top: 1.5rem;
   align-content: flex-start;
 }
@@ -71,8 +90,8 @@ a{
   background-color: rgb(240,240,240);
   align-content: flex-start;
   display: grid;
-  grid-template-rows: 3.5rem 10rem 15rem; 
-} 
+  grid-template-rows: 3.5rem 10rem 15rem;
+}
 
 .imagem{
   display: inline;
@@ -81,6 +100,47 @@ a{
   flex-grow: 1;
   flex-shrink: 1;
   align-content: flex-start;
+}
+
+.botao{
+  display: inline-grid;
+  position: relative;
+  margin-right: 1rem;
+  left: 81rem;
+  top: -3.3rem;
+}
+
+.buscador{
+  display: inline;
+  position: absolute;
+  background-color: rgb(245, 245, 245);
+  right: 1rem;
+  margin-top: -6.05rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+  align-content: flex-start;
+}
+
+/* id */
+#home{
+  display: inline;
+  position: relative;
+  border-style: solid;
+  margin-top: 1rem;
+}
+
+#sobre{
+  display: inline;
+  position: relative;
+  border-style: solid;
+  margin-top: 1rem;
+}
+
+#contatos{
+  display: inline;
+  position: relative;
+  border-style: solid;
+  margin-top: 1rem;
 }
 
 .LETREIRO {
@@ -101,4 +161,3 @@ a{
 
 
 }
-/* id */
