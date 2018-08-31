@@ -56,6 +56,7 @@ a{
   flex-grow: 1;
   flex-shrink: 1;
   align-content: flex-start;
+  color: gray;
 }
 
 input{
@@ -84,19 +85,17 @@ input{
   display: inline;
   margin: 1.5rem;
   align-content: flex-start;
+
 }
 
 .bordinha {
-  border-style:solid;
-  border-width:  0.25rem;
-  margin-left: 1rem;
-  margin-right: 35rem;
-  margin-top: 1.5rem;
+  margin-right: 36rem;
+  margin-top: 0.5rem;
   align-content: flex-start;
 }
 
 .corpo{
-  background-color: rgb(240,240,240);
+  background-color: lightgray;
   align-content: flex-start;
   display: grid;
   grid-template-rows: 3.5rem 10rem 15rem;
@@ -107,14 +106,6 @@ input{
   font-size: 3rem;
 }
 
-.Principal {
-  border-style: solid;
-  border-width: 0.0001rem;
-  margin-top: 6rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  background-color: lightgrey;
-}
 
 .imagem{
   display: inline;
@@ -137,17 +128,13 @@ input{
   align-content: flex-start;
 }
 
-.LETREIRO {
-  font-size: 3rem;
-}
-
 .Principal {
   border-style: solid;
   border-width: 0.0001rem;
   margin-top: 6rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  background-color: lightgrey;
+  background-color: #BDBDBF;
 }
 
 /* id */
@@ -171,24 +158,7 @@ input{
   border-style: solid;
   margin-top: 1rem;
 }
-<<<<<<< HEAD
 
-.LETREIRO {
-  font-size: 3rem;
-
-
-}
-
-.Principal {
-  border-style: solid;
-  border-width: 0.0001rem;
-  margin-top: 6rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  background-color: lightgrey;
-
-
-}
 
 .teste {
   font-size: 2rem;
@@ -203,17 +173,7 @@ input{
 
 }
 
-#home {
-  margin: 1rem;
-
-}
-
 #sobre {
-  margin: 1rem;
-
-}
-
-#contatos {
   margin: 1rem;
 
 }
