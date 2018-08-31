@@ -57,6 +57,7 @@ a{
   flex-shrink: 1;
   align-content: flex-start;
   color: gray;
+  font-size: 1.25rem;
 }
 
 input{
@@ -89,7 +90,7 @@ input{
 }
 
 .bordinha {
-  margin-right: 36rem;
+  margin-right: 25rem;
   margin-top: 0.5rem;
   align-content: flex-start;
 }
