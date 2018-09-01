@@ -45,6 +45,7 @@ p{
 div{
   font-size: 1.5rem;
   margin: 1rem;
+  float: none;
   flex-grow: 1;
   flex-shrink: 1;
   align-content: flex-start;
@@ -53,6 +54,7 @@ div{
 
 a{
   text-decoration: none;
+  margin: 1rem;
   flex-grow: 1;
   flex-shrink: 1;
   align-content: flex-start;
@@ -64,6 +66,10 @@ input{
   flex-grow: 1;
   flex-shrink: 1;
   align-content: flex-start;
+  float: right;
+  border: none;
+  margin: 0.7rem;
+  display: inline;
   font-size: 1.5rem;
   font-family: 'Work Sans', sans-serif;
 
@@ -138,44 +144,41 @@ input{
   background-color: #BDBDBF;
 }
 
-/* id */
-#home{
-  display: inline;
-  position: relative;
-  border-style: solid;
-  margin-top: 1rem;
-}
-
-#sobre{
-  display: inline;
-  position: relative;
-  border-style: solid;
-  margin-top: 1rem;
-}
-
-#contatos{
-  display: inline;
-  position: relative;
-  border-style: solid;
-  margin-top: 1rem;
-}
-
-
-.teste {
+.navegador {
   font-size: 2rem;
   flex-grow: 1;
   flex-shrink: 1;
   align-content: flex-start;
   margin-left: 20rem;
   margin-top: 0.1rem;
-  display:inline;
+  display: inline;
   align-content: space-between;
-
-
 }
 
-#sobre {
-  margin: 1rem;
-
+/* id */
+#home{
+  color: black;
+  display: inline;
+  position: relative;
+  border-style: solid;
+  float: right;
+  margin-top: 1rem;
 }
 
+#sobre{
+  color: black;
+  display: inline;
+  position: relative;
+  border-style: solid;
+  float: right;
+  margin-top: 1rem;
+}
+
+#contatos{
+  color: black;
+  display: inline;
+  position: relative;
+  border-style: solid;
+  float: right;
+  margin-top: 1rem;
+}
