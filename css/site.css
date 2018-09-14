@@ -104,25 +104,54 @@ input{
 .corpo{
   background-color: lightgray;
   align-content: flex-start;
-  display: grid;
-  grid-template-rows: 3.5rem 10rem 15rem;
 }
 
+.main{
+  display: grid;
+  grid-template-columns: 25%, 1fr, 2fr;
+  grid-template-rows: 33%, 1fr, 1fr;
+}
 
 .LETREIRO {
   font-size: 3rem;
 }
 
-
-.imagem{
-  display: inline;
-  position: relative;
-  left: 1rem;
-  flex-grow: 1;
-  flex-shrink: 1;
-  align-content: flex-start;
+.titulo{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
 }
 
+.foto_jogo{
+  display: inline;
+  flex-grow: 1;
+  flex-shrink: 1;
+  text-align: center;
+  align-content: flex-start;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.parte_1{
+  flex-grow: 1;
+  flex-shrink: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.parte_2{
+  flex-grow: 1;
+  flex-shrink: 1;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
 
 .buscador{
   display: inline;
