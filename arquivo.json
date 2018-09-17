@@ -1,5 +1,5 @@
 { 
-    "Matérias": {
+    "Matérias_MaoNaMassa": {
         "name": "Mao na Massa",
         "courses": {
             "AcElec": {
@@ -45,8 +45,10 @@
                 ]
 
             }
-        },
+        }
+    },
     
+    "materias_BusinessESocial":{
         "name": "Business e Social",
         "courses": {
             "Catadores": {
@@ -98,10 +100,11 @@
                     "segundo objetivo de Startup",
                     "terceiro objetivo de Startup"
                 ]
-            },
-
-        },
+            }
+        }
+    },
     
+    "materias_CompreensaoMF": {
         "name": "Compreensão do Mundo Físico",
         "courses": {
             "DescMat": {
@@ -120,8 +123,10 @@
                     "terceiro objetivo de ModSim"
                 ]
             }
-        },
+        }
+    },
 
+    "materias_MatAplicada":{ 
 
         "name": "Matemática Aplicada",
         "courses": {
@@ -141,10 +146,11 @@
                     "terceiro objetivo de MatVar"
                 ]
             }
-        },
-    },
+        }
+    }
 }
     
        
 
         
+    
