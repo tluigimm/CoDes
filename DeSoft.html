@@ -8,6 +8,14 @@
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/site.css" rel="stylesheet">
     <meta charset="utf-8">
+
+    <script src="../lib/app.js"></script>
+  	<script src="../lib/database.js"></script>
+  	<script src="../lib/codes.js"></script>
+  	<script src="../lib/handlebars.js"></script>
+
+		<script src="script.js"></script>
+
     <title> DeSoft </title>
 
   </head>
@@ -26,10 +34,59 @@
       </div>
     </header>
 
+    <main class = 'main'>
+			<ul class = 'bordinha'>
+				<ul class = "menu">
+					<li class = "menu-item">
+						Mão na Massa
+						<ul class = "submenu">
+							<a class = "submenu-item" href='DeSoft.html?category=Matérias_MaoNaMassa&course=AcElec'>Acionamentos Elétricos</a>
+							<a class = "submenu-item" href='DeSoft.html?category=Matérias_MaoNaMassa&course=Desoft'>Design de Software</a>
+							<a class = "submenu-item" href='DeSoft.html?category=Matérias_MaoNaMassa&course=Girafa'>Girafa</a>
+							<a class = "submenu-item" href='DeSoft.html?category=Matérias_MaoNaMassa&course=Meteor'>Estação Metereológica</a>
+							<a class = "submenu-item" href='DeSoft.html?category=Matérias_MaoNaMassa&course=ModContrl'>Modelagem e Controle</a>
+						</ul>
+					</li>
+					<li class = "menu-item">
+						Compreensão do mundo Físico
+						<ul class = "submenu">
+							<a class = "submenu-item" href='DeSoft.html?category=materias_CompreensoMF&course=DescMat'>Descobrindo a Matéria</a>
+							<a class = "submenu-item" href='DeSoft.html?category=materias_CompreensoMF&course=ModSim'>Modelagem e Simulação do Mundo Físico</a>
+						</ul>
+					</li>
+					<li class = "menu-item">
+						Business e Social
+						<ul class = "submenu">
+							<a class = "submenu-item" href='DeSoft.html?category=materias_BusinessESocial&course=Catadores'>Catadores</a>
+							<a class = "submenu-item" href='DeSoft.html?category=materias_BusinessESocial&course=CoDes'>Co-Design de Aplicativos</a>
+							<a class = "submenu-item" href='DeSoft.html?category=materias_BusinessESocial&course=Dados'>Ciência dos Dados</a>
+							<a class = "submenu-item" href='DeSoft.html?category=materias_BusinessESocial&course=GDE'>Grandes Desafios da Engenharia</a>
+							<a class = "submenu-item" href='DeSoft.html?category=materias_BusinessESocial&course=Inovacao'>Inovação</a>
+							<a class = "submenu-item" href='DeSoft.html?category=materias_BusinessESocial&course=Startup'>Startup</a>
+						</ul>
+					</li>
+					<li class = "menu-item">
+						Matemática Aplicada
+						<ul class = "submenu">
+							<a class = "submenu-item" href='DeSoft.html?category=materias_MatAplicada&course=MatMult'>Matemática Multivariada</a>
+							<a class = "submenu-item" href='DeSoft.html?category=materias_MatAplicada&course=MatVar'>Matemática da Variação</a>
+						</ul>
+					</li>
+				</ul>
+			</ul>
+
+
+      <!-- <h1 class="title">{{name}}</h1>
+          <ul>
+            {{#each goals as |goal index|}}
+              <li class="item">{{index}}: {{goal}}</li>
+            {{/each}}
+          </ul> -->
+
     <main class="main">
       <section class="titulo">
         <h2>
-            Design de software
+            {{name}}
         </h2>
       </section>
 
@@ -38,13 +95,7 @@
           O que é?
         </h3>
         <p>
-          Esta matéria consiste em ensinar e desenvolver a linguagem de
-          programação Python, instruindo os alunos à como aplicar os conhecimentos
-          adquiridos em aula à projetos visando a inovação. Esse curso é aplicado
-          durante o primeiro semestre para as três Engenharias e conta com tanto
-          a participação de professores muito capacitados quanto o auxílio de
-          veteranos experientes nas matérias que se volutariam para ajudar aqueles
-          com dúvida.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </section>
 
@@ -55,21 +106,11 @@
 
       <section class="parte_2">
         <h3>
-          Como é o Projeto Final de Design de Software?
+          Como é o Projeto?
         </h3>
 
         <p>
-          Como atividade de conclusão de curso, os alunos de Engenharia devem
-          optar pela criação de um aplicativo ou um jogo e apresenta-los em uma
-          feira aberta ao público para que seus trabalhos possam ser contemplados
-          por seus professores, colegas e familiares. Ao optar pela realização de
-          um aplicativo, os alunos devem identificar um público alvo e sua
-          necessidade e desenvolver uma plataforma que atenda e resolva seus
-          desejos (ou que melhore algum serviço já existente). Optando pelo
-          jogo, os estudantes devem explorar a biblioteca do python, "PYGAME",
-          e elaborar um programa por conta própria. Através disso, eles tem a
-          possibilidade de liberar sua criatividade e, se baseando em jogos
-          já existentes, elaborando um jogo único.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </section>
     </main>

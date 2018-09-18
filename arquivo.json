@@ -1,4 +1,4 @@
-{ 
+{
     "Matérias_MaoNaMassa": {
         "name": "Mao na Massa",
         "courses": {
@@ -47,7 +47,7 @@
             }
         }
     },
-    
+
     "materias_BusinessESocial":{
         "name": "Business e Social",
         "courses": {
@@ -83,7 +83,7 @@
                     "terceiro objetivo de GDE"
                 ]
             },
-            "Inovação": {
+            "Inovacao": {
                 "name": "Inovação Incremental para Empresa Existente",
                 "goals": [
                     "primeiro objetivo de Inovação",
@@ -103,7 +103,7 @@
             }
         }
     },
-    
+
     "materias_CompreensaoMF": {
         "name": "Compreensão do Mundo Físico",
         "courses": {
@@ -126,7 +126,7 @@
         }
     },
 
-    "materias_MatAplicada":{ 
+    "materias_MatAplicada":{
 
         "name": "Matemática Aplicada",
         "courses": {
@@ -149,8 +149,3 @@
         }
     }
 }
-    
-       
-
-        
-    
