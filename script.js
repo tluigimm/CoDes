@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 
 
-let db = connect(
+let db = connect('https://co-design-9ee8e.firebaseio.com/')
 
 
 let path = '/design/courses/codes'
