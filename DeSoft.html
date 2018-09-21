@@ -8,6 +8,7 @@
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/site.css" rel="stylesheet">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 
     <script src="lib/app.js"></script>
   	<script src="lib/database.js"></script>
@@ -15,15 +16,34 @@
   	<script src="lib/handlebars.js"></script>
 
 		<script src="script.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
     <title> materia </title>
+
+    <script>
+
+      function openSlideMenu() {
+        document.getElementById('menu').style.width= '250px';
+        document.getElementById('content').style.marginLeft= '250px'
+
+      }
+      function closeSlideMenu() {
+        document.getElementById('menu').style.width='0';
+        document.getElementById('content').style.marginLeft='0';
+      }
+ 
+    </script>
 
   </head>
 
   <body class="corpo">
 
     <header class="header">
-      <h1> Insper | engenharia </h1>
+      <h1> Insper | Engenharia </h1>
+
+
+
+      <!-- <h1> Insper | engenharia </h1>
       <div class = 'navegador'>
 
         <input type="text" placeholder="Diga-me o que procuras...">
@@ -31,11 +51,30 @@
         <a id="sobre" href="hello_there.html"> Sobre </a>
         <a id="home" href = 'Projeto%20CoDes.html'> Home </a>
 
-      </div>
+      </div> -->
     </header>
+    <div id='content'>
+      <span class="slide">
+        <a href="#" onclick = "openSlideMenu()">
+          <i class = "fas fa-bars"></i>
+        </a>
+      </span>
+
+      <div id = "menu" class= "nav">
+        <a href="#" class = "close" onclick = "closeSlideMenu()">
+          <i class = "fas fa-times"></i>
+        </a>
+        <a href="#"> Home </a>
+        <a href="#"> Services </a>
+        <a href="#"> About </a>
+        <a href="#"> Portfolio </a>
+      </div>
+
+    </div>
+
 
     <main class = 'main'>
-			<ul class = 'bordinha'>
+			<!-- <ul class = 'bordinha'>
 				<ul class = "menu">
 					<li class = "menu-item">
 						Mão na Massa
@@ -74,7 +113,7 @@
 					</li>
 				</ul>
 			</ul>
-
+ -->
     <main class="main">
       <section class="titulo">
         <h2 class='name'>
@@ -92,8 +131,8 @@
       </section>
 
       <section class="foto_jogo">
-        <img src="Imagens/foto_jogo.jpeg" alt="foto de jogo" height="400"
-        width="700">
+        <img src="Imagens/foto_jogo.jpeg" alt="foto de jogo" height="150"
+        width="350">
       </section>
 
       <section class="parte_2">

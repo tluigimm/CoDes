@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:800');
+
+
 /* tag */
 h2, h3{
   font-family: 'Work Sans', sans-serif;
@@ -10,7 +13,7 @@ h1{
   align-content: flex-start;
   margin-left: 1rem;
   margin-top: 0.1rem;
-  display:inline;
+  display: inline;
 }
 
 h2{
@@ -250,3 +253,124 @@ input{
 .submenu-item:hover {
     color: #000000;
 }
+
+@media (max-width: 360px) {
+  h1 {
+    font-size: 2.15rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-content: flex-start;
+    margin-left: 1rem;
+    margin-top: 0.1rem;
+    display:inline;
+
+  }
+
+  .header {
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgb(225, 60, 60);
+    align-content: flex-start;
+  }
+
+  h2, h3 {
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+    margin-left: 0.5rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-content: flex-start;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+    margin-left: 0.5rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-content: flex-start;
+    font-weight: bold;
+
+  }
+
+  .parte_2 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 6;
+  }
+
+  .foto_jogo {
+    display: inline;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: center;
+    align-content: flex-start;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+
+  body {
+  font-family: 'work-sans', sans-serif;
+  overflow-x: hidden;
+  }
+
+  .nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    opacity: .9;
+    overflow-x: hidden;
+    padding-top: 0.25rem;
+    transition: 0.7s;
+    margin-left: -0.5rem;
+
+  }
+
+  .nav a {
+    display: block;
+    padding: 20px 30px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ccc;
+  }
+
+  .nav a:hover {
+    color: #fff;
+    transition: 0.4s;
+  }
+
+  .nav .close {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    margin-left: 50px;
+    font-size: 30px;
+  }
+
+  .slide a {
+    color: #000;
+    font-size: 36px;
+    margin-left: -0.5rem;
+  }
+
+  #content {
+    padding: 20px;
+    transition: margin-left 0.7s;
+    overflow: hidden;
+    width: 100%;
+  } 
+}
+

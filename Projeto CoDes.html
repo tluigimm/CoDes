@@ -7,92 +7,62 @@
 		<title>Projetos Finais</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<link href = 'css/reset.css' rel = 'stylesheet'>
-		<link href = 'css/site.css' rel = 'stylesheet'>
+		<link href = 'css/style.css' rel = 'stylesheet'>
 
 		<script src="../lib/app.js"></script>
-  	<script src="../lib/database.js"></script>
-  	<script src="../lib/codes.js"></script>
-  	<script src="../lib/handlebars.js"></script>
+  		<script src="../lib/database.js"></script>
+  		<script src="../lib/codes.js"></script>
+  		<script src="../lib/handlebars.js"></script>
 
 		<script src="script.js"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
-  	<meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width,initial-scale=1">
-		<meta charset = 'utf-8'>
-		<meta name = 'viewport' content  = 'width = device-width, initial-scale = 1'>
+
+  		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+  		<script>
+  			function openSlideMenu() {
+  				document.getElementById('menu').Style.width = '250px';
+  				document.getElementById('content').Style.marginLeft = '250px';
+
+  			}
+  			function openSlideMenu() {
+  				document.getElementById('menu').Style.width = '0px';
+  				document.getElementById('content').Style.marginLeft = '0px';
+
+  			}
+  	</script>
 
 	</head>
 
-	<body class = "corpo">
-		<header class = "header">
-			<h1> Insper | engenharia </h1>
-			<div class = 'navegador'>
+	<body>
+		<div id= "content">
+			<span class="slide">
+				<a href="#" onclick="openSlideMenu()">
+					<i class="fas fa-bars"></i>
+				</a>
+			</span>
+		
+			<div id= "menu" class = "nav">
+				<a href="#" class = "close" onclick = "closeSlideMenu()">
+					<i class= "fas fa-times"></i>	
+				</a>
+				<a href = "#"> Home </a>
+				<a href = "#"> About </a>
+				<a href = "#"> Services</a>
 
-				<input type="text" placeholder="Diga-me o que procuras...">
-				<a id="contatos" href = 'PUDIM.html'> Contatos </a>
-				<a id="sobre" href="hello_there.html"> Sobre </a>
-        <a id="home" href = 'Projeto%20CoDes.html'> Home </a>
+			</div>
 
-      </div>
+			<h1>Rensposive Animated Sidebar Menu</h1>
 
-		</header>
-		<main class = 'main'>
-			<ul class = 'bordinha'>
-				<ul class = "menu">
-					<li class = "menu-item">
-						Mão na Massa
-						<ul class = "submenu">
-							<a class = "submenu-item" href = 'file:///C:/Users/gterh/CoDes/Projeto%20CoDes.html?category=Matérias_MaoNaMassa&course=AcElec'>Acionamentos Elétricos</a>
-							<a class = "submenu-item" href = 'file:///C:/Users/gterh/CoDes/Projeto%20CoDes.html?category=Matérias_MaoNaMassa&course=Desoft'>Design de Software</a>
-							<a class = "submenu-item" href = 'file:///C:/Users/gterh/CoDes/Projeto%20CoDes.html?category=Matérias_MaoNaMassa&course=Girafa'>Girafa</a>
-							<a class = "submenu-item" href = 'file:///C:/Users/gterh/CoDes/Projeto%20CoDes.html?category=Matérias_MaoNaMassa&course=Meteor'>Estação Metereológica</a>
-							<a class = "submenu-item" href = 'file:///C:/Users/gterh/CoDes/Projeto%20CoDes.html?category=Matérias_MaoNaMassa&course=ModContrl'>Modelagem e Controle</a>
-						</ul>
-					</li>
-					<li class = "menu-item">
-						Compreensão do mundo Físico
-						<ul class = "submenu">
-							<li class = "submenu-item">Descobrindo a Matéria</li>
-							<li class = "submenu-item">Modelagem e Simulação do Mundo Físico</li>
-						</ul>
-					</li>
-					<li class = "menu-item">
-						Business e Social
-						<ul class = "submenu">
-							<li class = "submenu-item">Catadores</li>
-							<li class = "submenu-item">Co-Design de Aplicativos</li>
-							<li class = "submenu-item">Ciência dos Dados</li>
-							<li class = "submenu-item">Grandes Desafios da Engenharia</li>
-							<li class = "submenu-item">Inovação</li>
-							<li class = "submenu-item">Startup</li>
-						</ul>
-					</li>
-					<li class = "menu-item">
-						Matemática Aplicada
-						<ul class = "submenu">
-							<li class = "submenu-item">Matemática Multivariada</li>
-							<li class = "submenu-item">Matemática da Variação</li>
-						</ul>
-					</li>
-				</ul>
-			</ul>
 
-			<ul class = 'Principal'>
-				<h2> OS PROJETOS: </h2>
-				<p>
-					Estes projetos abrangem as mais diversas áreas do conhecimento e
-					tem como intuíto concluir os cursos a qual fazem parte, unindo
-					conhecimento à prática ao colocar os alunos para resolverem problemas
-					do mundo real. Além disso, estes projetos exigem trabalho em grupo e
-					forçam os alunos à trabalharem conjuntamente, superando as adversidades
-					e aprendendo a conciliar suas diferenças.
-				</p>
+		</div>
 
-				<img src = 'Imagens/projetos.png' alt="atributos do pensamento" width = 600 height = 300>
 
-		</main>
+
 
 	</body>
 </html>
