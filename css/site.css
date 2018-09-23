@@ -328,7 +328,7 @@ input{
     width: 0;
     position: fixed;
     z-index: 0;
-    top: 0;
+    top: 1.15rem;
     left: 0;
     background-color: #111;
     opacity: .9;
@@ -341,7 +341,7 @@ input{
 
   .nav a {
     display: block;
-    padding: 20px 30px;
+    padding: 20px 0px;
     font-size: 25px;
     text-decoration: none;
     color: #ccc;
@@ -353,10 +353,11 @@ input{
   }
 
   .nav .close {
-    position: absolute;
+    position: relative;
     top: 0;
     right: 30px;
     margin-left: 50px;
+    margin-top: 0.25rem;
     font-size: 30px;
   }
 
@@ -371,6 +372,50 @@ input{
     transition: margin-left 0.7s;
     overflow: hidden;
     width: 100%;
-  } 
+  }
+  .menu {
+    color: ;
+    display: flex;
+    margin: 1rem;
+    margin-bottom: 5.25rem;
+    margin-top: -0.50rem;
+  }
+
+  .menu-item {
+    color: red;
+    flex-grow: 1;
+    font-size: 1rem;
+    padding: .25rem;
+    position: relative;
+  }
+  .submenu {
+    color: #B3B3B5;
+    position: absolute;
+    top: 1.5rem;
+    left: -1px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s, visibility .5s;
+  }
+
+  .menu-item:hover .submenu {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .submenu-item {
+    padding: .25rem;
+    color: rgb(110,110,110);
+  }
+
+  .submenu-item:hover {
+    color: #000000;
+  }
+  .submenu-item2 {
+    padding: .25rem;
+    color: rgb(110,110,110);
+    margin-left: -3.5rem;
+  }
+   
 }
 
