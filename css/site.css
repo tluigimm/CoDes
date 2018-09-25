@@ -379,12 +379,12 @@ input{
     width: 0;
     position: fixed;
     z-index: 0;
-    top: 1.15rem;
+    top: 2rem;
     left: 0;
     background-color: #111;
     opacity: .9;
     overflow-x: hidden;
-    padding-top: 0.25rem;
+    padding-top: -0.25rem;
     transition: 0.7s;
     margin-left: -0.5rem;
 
@@ -424,6 +424,7 @@ input{
     overflow: hidden;
     width: 100%;
   }
+
   .menu {
     color: ;
     display: flex;
@@ -433,7 +434,7 @@ input{
   }
 
   .menu-item {
-    color: red;
+    color: white;
     flex-grow: 1;
     font-size: 1rem;
     padding: .25rem;
@@ -466,6 +467,12 @@ input{
     padding: .25rem;
     color: rgb(110,110,110);
     margin-left: -3.5rem;
+  }
+
+  .navegador {
+    margin-top: 0rem;
+    visibility: hidden;
+
   }
    
 }
