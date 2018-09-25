@@ -224,16 +224,16 @@ input{
 }
 
 .menu-item {
-    color: black;
+    color: white;
     flex-grow: 1;
     font-size: 1.25rem;
-    padding: .25rem;
+    padding: 1.25rem;
     position: relative;
 }
 .submenu {
     color: #B3B3B5;
     position: absolute;
-    top: 1.5rem;
+    top: 3.5rem;
     left: -1px;
     opacity: 0;
     visibility: hidden;
@@ -247,11 +247,62 @@ input{
 
 .submenu-item {
     padding: .25rem;
-    color: rgb(110,110,110);
+    color: darkblue;
 }
 
 .submenu-item:hover {
     color: #000000;
+}
+
+.nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 0;
+  top: 2.20rem;
+  left: 0;
+  background-color: #111;
+  opacity: .9;
+  overflow-x: hidden;
+  padding-top: 0.25rem;
+  transition: 0.7s;
+  margin-left: -0.5rem;
+
+}
+
+.nav a {
+  display: block;
+  padding: 20px 0px;
+  font-size: 25px;
+  text-decoration: none;
+  color: #ccc;
+}
+
+.nav a:hover {
+  color: gold;
+  transition: 0.4s;
+}
+
+.nav .close {
+  position: relative;
+  top: 0;
+  right: 30px;
+  margin-left: 50px;
+  margin-top: 0.25rem;
+  font-size: 30px;
+}
+
+.slide a {
+  color: #000;
+  font-size: 36px;
+  margin-left: -0.5rem;
+}
+
+#content {
+  padding: 20px;
+  transition: margin-left 0.7s;
+  overflow: hidden;
+  width: 100%;
 }
 
 @media (max-width: 360px) {
