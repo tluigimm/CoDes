@@ -302,10 +302,9 @@ input{
   padding: 20px;
   transition: margin-left 0.7s;
   overflow: hidden;
-  width: 100%;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 800px) {
   h1 {
     font-size: 2.15rem;
     flex-grow: 1;
@@ -319,8 +318,6 @@ input{
 
   .header {
     position: relative;
-    margin-left: 0;
-    margin-right: 0;
     background-color: rgb(225, 60, 60);
     align-content: flex-start;
   }
@@ -361,7 +358,6 @@ input{
     display: inline;
     flex-grow: 1;
     flex-shrink: 1;
-    text-align: center;
     align-content: flex-start;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -386,7 +382,6 @@ input{
     overflow-x: hidden;
     padding-top: -0.25rem;
     transition: 0.7s;
-    margin-left: -0.5rem;
 
   }
 
@@ -419,10 +414,9 @@ input{
   }
 
   #content {
-    padding: 20px;
+    padding: 0rem;
     transition: margin-left 0.7s;
     overflow: hidden;
-    width: 100%;
   }
 
   .menu {
