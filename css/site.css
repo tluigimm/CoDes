@@ -244,6 +244,7 @@ input{
   overflow: hidden;
 }
 
+
 /* formato para mobile */
 
 @media (max-width: 800px) {
@@ -255,9 +256,13 @@ input{
     margin-left: 1rem;
     margin-top: 0.1rem;
     display:inline;
-
   }
 
+  .header {
+    position: relative;
+    background-color: rgb(225, 60, 60);
+    align-content: flex-start;
+  }
 
   h2, h3 {
     font-family: 'Work Sans', sans-serif;
@@ -284,12 +289,15 @@ input{
   .header {
     position: relative;
     background-color: rgb(225, 60, 60);
-    align-content: flex-start;
   }
 
   body {
   font-family: 'work-sans', sans-serif;
   overflow-x: hidden;
+  }
+
+  .foto{
+    margin-right: 1rem;
   }
 
   .nav {
