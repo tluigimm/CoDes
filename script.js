@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	db.download(url, function(data) {
 		replace('body', {
 		'name': data['name'],
-		'goals': data['goals'],
+		'parte_1': data['parte_1'],
+		'parte_2': data['parte_2']
 		})
 	})
 })
-

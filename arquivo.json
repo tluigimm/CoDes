@@ -4,11 +4,8 @@
         "courses": {
             "AcElec": {
                 "name": "Projeto Final de Acionamentos Elétricos",
-                "goals": [
-                    "primeiro objetivo de AcElec",
-                    "segundo objetivo de AcElec",
-                    "terceiro objetivo de AcElec"
-                ]
+                "parte_1": "esse é o projeto final de acionamentos elétricos",
+                "parte_2": "essa é a parte dois do portifólio de acionamentos elétricos"
             },
 
             "Desoft": {
@@ -127,7 +124,6 @@
     },
 
     "materias_MatAplicada":{
-
         "name": "Matemática Aplicada",
         "courses": {
             "MatMult": {
