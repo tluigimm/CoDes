@@ -1,2 +1,0 @@
-# CoDes
-trabalho de CoDes
